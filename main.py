@@ -42,5 +42,12 @@ sns.regplot(x="Freedom", y="Happiness Score", data=whr_2019, ax = axs[1, 1])
 sns.regplot(x="Generosity", y="Happiness Score", data=whr_2019, ax = axs[2, 0])
 sns.regplot(x="Trust (Government Corruption)", y="Happiness Score", data=whr_2019, ax = axs[2, 1])
 
+#plt.show()
 
+
+plt.figure(figsize=(12,10), dpi= 80)
+sns.heatmap(whr_2019.corr(), xticklabels=whr_2019.corr().columns, yticklabels=whr_2019.corr().columns, cmap='RdYlGn', center=0, annot=True)
+plt.title('Correlogram of World Happiness Score in 2019', fontsize=22)
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12)
 plt.show()
