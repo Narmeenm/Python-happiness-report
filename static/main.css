@@ -1,0 +1,38 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+:root{
+  --fontTitles:'Roboto', sans-serif;
+  --tableDatafont:'Rajdhani', sans-serif;
+  --fontmainTitle:'Fredericka the Great', cursive;
+}
+
+.title{
+  background-color:red;
+  height: 10vh;
+  width: 100%;
+  padding: 10%;
+  border:1px solid black;
+  font-family: var(--fontTitles);
+  text-align: center;
+  font-size: 5vh;
+
+}
+
+.frame-of-data{
+  background:yellow;
+  height: 70vh;
+}
+
+.data-analyst{
+  background-color: green;
+  padding: 1vh 1vh 1vh;
+  margin: 2vh 2vh;
+}
+
+.resources{
+  background-color:orange;
+}
