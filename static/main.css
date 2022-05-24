@@ -33,6 +33,10 @@
   margin: 2vh 2vh;
 }
 
+
+
 .resources{
   background-color:orange;
+  position: fixed;
+  bottom: 0;
 }
